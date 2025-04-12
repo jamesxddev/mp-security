@@ -1,0 +1,6 @@
+@mp.security_HostAddress = http://localhost:5150
+
+GET {{mp.security_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
